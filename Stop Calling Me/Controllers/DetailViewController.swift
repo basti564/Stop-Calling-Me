@@ -79,9 +79,9 @@ class DetailViewController: UIViewController {
     @IBAction func startCalling(_ sender:UIButton){
         if hideNumber.isOn{
             if segmentControl.selectedSegmentIndex == 0{
-                noIdPrefix = "%2A67"
+                noIdPrefix = "%2A6700"
             }else{
-                noIdPrefix = "%2331%23"
+                noIdPrefix = "%2331%2300"
             }
         }else{
             noIdPrefix = ""
