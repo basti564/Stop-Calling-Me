@@ -10,6 +10,6 @@ Android users should download the official app from [Google Play](https://play.g
 - Add complete compatibility for sub iOS 13.0
 - Optimise layout
 ## Screenshots
-![Scammers](https://user-images.githubusercontent.com/34898868/71456734-2d33b900-279b-11ea-86e6-f56d695b6f69.png)
+![Scammers](https://user-images.githubusercontent.com/34898868/71456736-2dcc4f80-279b-11ea-8a12-32c5ed069622.png)
 ![ScammerDetail](https://user-images.githubusercontent.com/34898868/71456735-2dcc4f80-279b-11ea-9c64-3534259f40e1.png)
-![ReportScammer](https://user-images.githubusercontent.com/34898868/71456736-2dcc4f80-279b-11ea-8a12-32c5ed069622.png)
+![ReportScammer](https://user-images.githubusercontent.com/34898868/71456734-2d33b900-279b-11ea-86e6-f56d695b6f69.png)
