@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0302C8BE23B1999B00C15201 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0302C8BD23B1999B00C15201 /* TabBarViewController.swift */; };
+		0302C8C023B1B4BD00C15201 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0302C8BF23B1B4BD00C15201 /* TableViewController.swift */; };
+		0302C8C223B1B5B900C15201 /* Scammer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0302C8C123B1B5B900C15201 /* Scammer.swift */; };
+		035EBB3023B193A300C63FCA /* NumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035EBB2F23B193A300C63FCA /* NumberViewController.swift */; };
+		0366D2E323B120E300389028 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0366D2E223B120E300389028 /* AppDelegate.swift */; };
+		0366D2E523B120E300389028 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0366D2E423B120E300389028 /* SceneDelegate.swift */; };
+		0366D2E923B120E300389028 /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0366D2E823B120E300389028 /* ReportViewController.swift */; };
+		0366D2EC23B120E300389028 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0366D2EA23B120E300389028 /* Main.storyboard */; };
+		0366D2EE23B120E500389028 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0366D2ED23B120E500389028 /* Assets.xcassets */; };
+		0366D2F123B120E500389028 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0366D2EF23B120E500389028 /* LaunchScreen.storyboard */; };
+		03C2DF4E23B22635007A17EA /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C2DF4D23B22635007A17EA /* Request.swift */; };
+		03C2DF5023B26B34007A17EA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C2DF4F23B26B34007A17EA /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0302C8BD23B1999B00C15201 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		0302C8BF23B1B4BD00C15201 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		0302C8C123B1B5B900C15201 /* Scammer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scammer.swift; sourceTree = "<group>"; };
+		0347DD4F23B4372800E0996C /* Stop Calling.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Stop Calling.entitlements"; sourceTree = "<group>"; };
+		035EBB2F23B193A300C63FCA /* NumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberViewController.swift; sourceTree = "<group>"; };
+		0366D2DF23B120E300389028 /* Stop Calling Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stop Calling Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0366D2E223B120E300389028 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0366D2E423B120E300389028 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0366D2E823B120E300389028 /* ReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
+		0366D2EB23B120E300389028 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0366D2ED23B120E500389028 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0366D2F023B120E500389028 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0366D2F223B120E500389028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03C2DF4D23B22635007A17EA /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		03C2DF4F23B26B34007A17EA /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0366D2DC23B120E300389028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0366D2D623B120E300389028 = {
+			isa = PBXGroup;
+			children = (
+				0366D2E123B120E300389028 /* Stop Calling Me */,
+				0366D2E023B120E300389028 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0366D2E023B120E300389028 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0366D2DF23B120E300389028 /* Stop Calling Me.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0366D2E123B120E300389028 /* Stop Calling Me */ = {
+			isa = PBXGroup;
+			children = (
+				0347DD4F23B4372800E0996C /* Stop Calling.entitlements */,
+				0396C73723B458ED00288285 /* Delegates */,
+				0396C73623B458E300288285 /* Model */,
+				03C2DF5123B26B6B007A17EA /* Controllers */,
+				03C2DF5223B26B97007A17EA /* Storyboards */,
+				0366D2ED23B120E500389028 /* Assets.xcassets */,
+				0366D2F223B120E500389028 /* Info.plist */,
+			);
+			path = "Stop Calling Me";
+			sourceTree = "<group>";
+		};
+		0396C73623B458E300288285 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				03C2DF4D23B22635007A17EA /* Request.swift */,
+				0302C8C123B1B5B900C15201 /* Scammer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0396C73723B458ED00288285 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				0366D2E223B120E300389028 /* AppDelegate.swift */,
+				0366D2E423B120E300389028 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		03C2DF5123B26B6B007A17EA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0302C8BD23B1999B00C15201 /* TabBarViewController.swift */,
+				035EBB2F23B193A300C63FCA /* NumberViewController.swift */,
+				0302C8BF23B1B4BD00C15201 /* TableViewController.swift */,
+				03C2DF4F23B26B34007A17EA /* DetailViewController.swift */,
+				0366D2E823B120E300389028 /* ReportViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		03C2DF5223B26B97007A17EA /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				0366D2EA23B120E300389028 /* Main.storyboard */,
+				0366D2EF23B120E500389028 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0366D2DE23B120E300389028 /* Stop Calling Me */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0366D2F523B120E500389028 /* Build configuration list for PBXNativeTarget "Stop Calling Me" */;
+			buildPhases = (
+				0366D2DB23B120E300389028 /* Sources */,
+				0366D2DC23B120E300389028 /* Frameworks */,
+				0366D2DD23B120E300389028 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stop Calling Me";
+			productName = "Stop Calling Me";
+			productReference = 0366D2DF23B120E300389028 /* Stop Calling Me.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0366D2D723B120E300389028 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Bastian Oliver Schwickert";
+				TargetAttributes = {
+					0366D2DE23B120E300389028 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 0366D2DA23B120E300389028 /* Build configuration list for PBXProject "Stop Calling Me" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0366D2D623B120E300389028;
+			productRefGroup = 0366D2E023B120E300389028 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0366D2DE23B120E300389028 /* Stop Calling Me */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0366D2DD23B120E300389028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0366D2F123B120E500389028 /* LaunchScreen.storyboard in Resources */,
+				0366D2EE23B120E500389028 /* Assets.xcassets in Resources */,
+				0366D2EC23B120E300389028 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0366D2DB23B120E300389028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C2DF5023B26B34007A17EA /* DetailViewController.swift in Sources */,
+				0366D2E923B120E300389028 /* ReportViewController.swift in Sources */,
+				03C2DF4E23B22635007A17EA /* Request.swift in Sources */,
+				0302C8C023B1B4BD00C15201 /* TableViewController.swift in Sources */,
+				0366D2E323B120E300389028 /* AppDelegate.swift in Sources */,
+				0302C8C223B1B5B900C15201 /* Scammer.swift in Sources */,
+				0366D2E523B120E300389028 /* SceneDelegate.swift in Sources */,
+				0302C8BE23B1999B00C15201 /* TabBarViewController.swift in Sources */,
+				035EBB3023B193A300C63FCA /* NumberViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0366D2EA23B120E300389028 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0366D2EB23B120E300389028 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0366D2EF23B120E500389028 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0366D2F023B120E500389028 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0366D2F323B120E500389028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0366D2F423B120E500389028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0366D2F623B120E500389028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Stop Calling Me/Stop Calling.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Stop Calling Me/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bos.StopCallingMe;
+				PRODUCT_NAME = "Stop Calling Me";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0366D2F723B120E500389028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Stop Calling Me/Stop Calling.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Stop Calling Me/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bos.StopCallingMe;
+				PRODUCT_NAME = "Stop Calling Me";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0366D2DA23B120E300389028 /* Build configuration list for PBXProject "Stop Calling Me" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0366D2F323B120E500389028 /* Debug */,
+				0366D2F423B120E500389028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0366D2F523B120E500389028 /* Build configuration list for PBXNativeTarget "Stop Calling Me" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0366D2F623B120E500389028 /* Debug */,
+				0366D2F723B120E500389028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0366D2D723B120E300389028 /* Project object */;
+}
