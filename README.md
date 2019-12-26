@@ -1,10 +1,12 @@
 # Stop-Calling-Me
 ## Intro
 Inofficial open source iOS and MacOS application for the [StopCallingMe](https://stopcallingme.ca/) Website.
-Android users should download the official app from [Google Play](https://play.google.com/store/apps/details?id=com.auxilium.stopcallingme&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1)
+Android users should download the official app from [Google Play](https://play.google.com/store/apps/details?id=com.auxilium.stopcallingme&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1).
 ## Source code
 - This project is completely open source and it will be kept like it in the future
 - The source code can be found [here](https://github.com/basti564/Stop-Calling-Me) on GitHub
+## Drawback
+Sadly iOS doesn't give sandboxed apps the possibility to take over the phone functionallity of iDevices, so we need to make each call individually. (I'll try to look into PrivateFrameworks that could give us this capability and make an definitely non-appstore build)
 ## TODO
 - Add phone number length check
 - Add complete compatibility for sub iOS 13.0
