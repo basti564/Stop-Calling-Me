@@ -6,7 +6,7 @@ Android users should download the official app from [Google Play](https://play.g
 - This project is completely open source and it will be kept like it in the future
 - The source code can be found [here](https://github.com/basti564/Stop-Calling-Me) on GitHub
 ## Drawback
-Sadly iOS doesn't give sandboxed apps the possibility to take over the phone functionallity of iDevices, so we need to make each call manually. (I'll try to look into PrivateFrameworks that could give us this capability and make an definitely non-appstore build)
+Sadly iOS doesn't give sandboxed apps the possibility to take over the phone functionallity of iDevices, so we need to make each call manually.
 ## TODO
 - Add phone number length check
 - Add complete compatibility for sub iOS 13.0
